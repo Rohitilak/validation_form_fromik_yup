@@ -1,8 +1,29 @@
-# React + Vite
+# Formik and Yup Library
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React component for a signup form using Formik and Yup validation.
 
-Currently, two official plugins are available:
+#### Hosted Link https://validation-form-fromik-yup.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Description
+
+FormFormik is a React component designed to manage a user signup form. It utilizes Formik for form state management and validation, along with Yup for schema validation to ensure data integrity.
+
+## Features
+
+- Input fields for name, email, password, and confirm password.
+- Real-time validation feedback with error messages.
+- Submission handling with form reset upon successful submission.
+- Responsive design with separate containers for form and visual content.
+
+# Installation
+
+1. clone the Repository
+
+```bash 
+git clone https://github.com/Rohitilak/validation_form_fromik_yup.git
+
+cd your-repository
+
+npm install
+
+npm run dev
